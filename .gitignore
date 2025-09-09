@@ -1,0 +1,60 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.conda
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+wandb/
+mlruns/
+
+# Model checkpoints & weights
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.json
+
+# Output / results
+outputs/
+results/
+runs/
+figures/
+plots/
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
